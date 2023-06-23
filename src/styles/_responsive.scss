@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  body {
+    margin: 0 16px;
+  }
+
+  .authPage {
+    .login {
+      width: 100%;
+    }
+  }
+
+  .adminPage {
+
+    .addWorker {
+      width: 100%;
+    }
+  }
+
+  .button {
+
+    &__icon {
+      padding: 7px;
+      width: 30px;
+      height: 30px;
+      color: var(--color-white);
+    }
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .header {
+    &__logo {
+      width: 30px;
+      height: 20px;
+    }
+
+    &__title {
+      max-width: 180px;
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &__button {
+      height: 30px;
+    }
+  }
+}
